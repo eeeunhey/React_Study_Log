@@ -1,12 +1,15 @@
-import { AppFooter, AppHeader } from "./components/common"
+import { AppFooter, AppHeader } from "./components/common";
 
 const App = () => {
   return (
-    <div>
-      <AppHeader />
-      <AppFooter />
-    </div>
-  )
-}
+    <div className="page">
 
-export default App
+        <AppHeader />
+              <div className="container"></div>
+        <AppFooter />
+
+    </div>
+  );
+};
+
+export default App;
