@@ -1,8 +1,11 @@
-import React from 'react'
+import { AppFooter, AppHeader } from "./components/common"
 
 const App = () => {
   return (
-    <div>App.tsx 파일임</div>
+    <div>
+      <AppHeader />
+      <AppFooter />
+    </div>
   )
 }
 
