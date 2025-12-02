@@ -5,11 +5,13 @@ function AppHeader() {
         {/* 로고 & 네비 UI */}
         <div className="flex items-center gap-5">
           <div>
-            <div className="font-semibold text-muted-foreground hover:text-white transition-all duration-300">
-              로그인
+            <img>
+            </img>
+            <div className="font-semibold">
+              토픽 인사이트
             </div>
-            <div className="font-semibold text-muted-foreground hover:text-white transition-all duration-300">
-              로그인
+            <div className="font-semibold">
+              포트폴리오
             </div>
           </div>
         </div>
