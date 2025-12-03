@@ -1,3 +1,5 @@
+import { Separator } from "@radix-ui/react-separator";
+
 function AppHeader() {
   return (
     <header className="fixed top-0 z-10 w-full flex items-center justify-center bg-[#121212]">
@@ -10,6 +12,7 @@ function AppHeader() {
             <div className="font-semibold">
               토픽 인사이트
             </div>
+            <Separator />
             <div className="font-semibold">
               포트폴리오
             </div>
