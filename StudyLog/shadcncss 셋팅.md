@@ -9,3 +9,43 @@ index.ts에 export {수출} form "경로" 가져온다 이렇게 해놓으면 co
 import { AppFooter, AppHeader } from "./components/common" 이런식으로 가져올수 있다 이거 적용한면서 
 import AppFooter from "./components/AppFooter"
 import AppHeader from "./components/AppHeader"
+
+
+index.css 설정하기
+
+.page {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: auto;
+
+  .container {
+    width: 100%;
+    max-width: 1328px;
+
+    padding-top: 48px;
+    flex:1;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+    scrollbar-width: none; // 스크롤바가 안나오게 설정할 수 있다
+    ::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  body {
+    @apply bg-background text-foreground text-sm;
+  }
+}

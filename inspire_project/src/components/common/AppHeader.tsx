@@ -1,4 +1,5 @@
-import { Separator } from "@radix-ui/react-separator";
+import { Separator } from "../ui";
+
 
 function AppHeader() {
   return (
@@ -12,7 +13,7 @@ function AppHeader() {
             <div className="font-semibold">
               토픽 인사이트
             </div>
-            <Separator />
+            <Separator orientation="vertical" /> 
             <div className="font-semibold">
               포트폴리오
             </div>
