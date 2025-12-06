@@ -47,10 +47,10 @@ const App = () => {
         <div className="container">
           {/* 카테고리 사이드바 */}
           <main className="w-full h-full min-h-[720px] flex p-6 gap-6">
-            <aside className="min-w-60 w-60 flex flex-col gap-6">
+            <aside className="w-60 flex flex-col gap-6">
               <div className="flex items-center gap-2">
                 {/* Shadcn UI Typograpy h4 제공 컴포넌트 사용 */}
-                <h4 className="scroll-m-20 text-xl text-semibold tracking-tight">
+                <h4 className="scroll-m-20 text-xl font-semibold tracking-tight">
                   카테고리
                 </h4>
                 <ChevronDown className="mt-1" />
@@ -62,8 +62,9 @@ const App = () => {
                     <Button
                       key={menu.id}
                       variant={"ghost"}
-                      className="justify-start text-muted-foreground hover:text-white"
+                      className="justify-start text-muted-foreground hover:text-white hover:pl-6 transition-all duration-500"
                     >
+                      {}
                       {menu.icon}
                       {menu.label}
                     </Button>

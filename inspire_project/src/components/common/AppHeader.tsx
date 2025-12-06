@@ -6,7 +6,7 @@ function AppHeader() {
       <div className="w-full max-w-[1328px] flex items-center justify-between px-6 py-3">
         {/* 로고 & 네비 UI */}
         <div className="flex items-center gap-6">
-          <img src="/logo.svg" alt="@LOGO" className="w-15 cursor-pointer" />
+          <img src="/logo.svg" alt="@LOGO" className="w-7 cursor-pointer" />
           <div className="font-semibold">토픽 인사이트</div>
           <Separator orientation="vertical" />
           <div className="font-semibold">포트폴리오</div>
