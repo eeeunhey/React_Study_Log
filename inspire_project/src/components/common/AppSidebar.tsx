@@ -23,7 +23,6 @@ function AppSidebar() {
               variant={"ghost"}
               className="justify-start text-muted-foreground hover:text-white hover:pl-6 transition-all duration-500"
             >
-              {}
               {menu.icon}
               {menu.label}
             </Button>
